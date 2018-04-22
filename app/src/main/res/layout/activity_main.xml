@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:layout_gravity="top"
+        android:layout_weight="1"
+        android:src="@drawable/birthday" />
+
+    <TextView
+        android:id="@+id/to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="0"
+        android:fontFamily="sans-serif-light"
+        android:padding="20dp"
+        android:text="Happy Birthday Niki!"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"
+        android:textSize="36sp" />
+
+    <TextView android:id="@+id/from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="0"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:padding="20dp"
+        android:text="From: AJ!" />
+
+</LinearLayout>
